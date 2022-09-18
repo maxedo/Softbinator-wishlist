@@ -46,14 +46,14 @@ const Itemwishlist=(props)=>{
 
 
 
-        <button onClick={()=>UpdateItem(props.item.item.id)}>{button} </button>
-        <h1>Name:</h1>
+        <button onClick={()=>UpdateItem(props.item.item.id)}  className='button_item_wishlist'>{button} </button>
+        <h1 className='scrisIteme'>Name:</h1>
         <input type="text" defaultValue={props.item.item.name} readOnly={stare}  className='itemcreat' onChange={(e)=>setNumeItem(e.target.value)}/>
-        <h1>Details:</h1>
+        <h1 className='scrisIteme'>Details:</h1>
         <input type="text" defaultValue={props.item.item.details} readOnly={stare} className='itemcreat' onChange={(e)=>setDetailItem(e.target.value)}/>
-        <h1>Quantity:</h1>
+        <h1 className='scrisIteme'>Quantity:</h1>
         <input type="number" defaultValue={props.item.item.quantity} readOnly={stare} className='itemcreat' onChange={(e)=>setQuantityItem(e.target.value)}/>
-        <h1>Link:</h1>
+        <h1 className='scrisIteme'>Link:</h1>
         <input type="text" defaultValue={props.item.item.link} readOnly={stare} className='itemcreat' onChange={(e)=>setLinkItem(e.target.value)}/>
 
 

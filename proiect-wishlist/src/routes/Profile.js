@@ -110,6 +110,7 @@ if(citym!==""){
         {me2}
         <button className='right_2' onClick={()=>setIsToggled(!isToggled)}>Change info</button>
         {changeinfo}
+        
     </div>
     
     </>

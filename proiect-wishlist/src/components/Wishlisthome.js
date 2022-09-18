@@ -51,7 +51,7 @@ async function DeleteItem(itemid){
 
 return (
     <>
-        <button onClick={Delete}>X</button>
+        <button onClick={Delete} className='button_item_wishlist_delete'>X</button>
    <div>
     <div className='Titlu_descriere'>
         <h1>{props.comp.name}</h1>
@@ -62,7 +62,7 @@ return (
     {props.comp.items.map((items)=>(
               <>
                 <div key={items.item.id} className='itemedinlista'>
-                    <button onClick={() => DeleteItem(items.item.id)}>X</button>
+                    <button onClick={() => DeleteItem(items.item.id)} className='button_item_wishlist_delete'>X</button>
                     
                     <Itemwishlist item={items} />
                 </div>

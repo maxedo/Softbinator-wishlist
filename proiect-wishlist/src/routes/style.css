@@ -42,7 +42,16 @@ body{
 .chestionar input[type='text'],input[type='password']{
     border: 0;
     border-bottom: 1px solid #b4becb;
-    width: 90%;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom:5px;
+ 
+}
+.chestionar input[type='password']{
+    border: 0;
+    border-bottom: 1px solid #b4becb;
+    width: 100%;
     padding: 10px;
     font-size: 16px;
     margin-bottom:5px;
@@ -111,13 +120,14 @@ body{
   margin-top:50px;
   float:left; 
   height:250px;
-  width:200px;	
+  width:200px;
+  border-radius: 10px;	
 }
 .profile{
   width:500px;
 	height:auto;
 	padding:1%;
-    float:left;
+  float:left;
 }
 .left {
   float:left;
@@ -132,26 +142,27 @@ body{
 .right_2{
   float:left;
   margin-top:50px;
-  margin-left:200px;
+  margin-left:80px;
+  margin-bottom:-70px;
 }
 
 .chestionar_2{
   float:left;
-  margin-left:200px;
-  margin-top:100px;
   display: flex;
   justify-content: center;
   align-items:center;  
   flex-flow:column;
-  background-color: white;
-  width: 400px;
+  background-color: gray;
+  width: 350px;
   height: 600px;
+  margin-left:1050px;
+  margin-top:-300px;
 }
 
 .chestionar_2 input[type='text'],input[type='password']{
   border: 0;
   border-bottom: 1px solid #b4becb;
-  width: 90%;
+  width: 50%;
   padding: 10px;
   font-size: 16px;
   margin-bottom:5px;
@@ -225,19 +236,53 @@ body{
 .header_wishlist{
  display:flex;
  justify-content: center;
+ text-decoration: underline;
 }
 .Titlu_descriere{
   display:flex;
   justify-content: center;
+  font-size: 15px;
 }
 .itemedinlista{
   border-top:5px solid black;
 }
 .itemcreat{
   border:none;
+  border-bottom:1px solid gray;
   height: 20px;
+  width:80%;
   margin-left:20px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   font-size: 20px;
   font-weight: bold;
+}
+.profil{
+  margin-top:50px;
+  margin-left:450px;
+  height:740px;
+  width:1000px;
+  background-color: white;
+  border-radius: 10px;
+}
+.button_item_wishlist{
+  background-color: #60f542;
+  border:none;
+  border-radius: 10px;
+  height:40px;
+  padding: 10px;
+  margin-left:10px;
+  margin-top:10px;
+}
+.button_item_wishlist_delete{
+  background-color: red;
+  border:none;
+  border-radius: 5px;
+  height:30px;
+  width:30px;
+  margin-left:10px;
+  margin-top:10px;
+}
+.scrisIteme{
+  font-size: 22px;
+  margin-left: 10px;
 }

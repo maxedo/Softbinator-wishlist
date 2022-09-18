@@ -31,7 +31,7 @@ const Register=() =>{
             <h1>Sign up</h1><br/>
             <form className="chestionar">
                 <input type="text" id="email" name="email" placeholder="Email" onChange={(e)=>setEmail(e.target.value)} /><br/>
-                <input type="text" id="password" name="password" placeholder="Password" onChange={(e)=>setPassword(e.target.value)} /><br/>
+                <input type="password" id="password" name="password" placeholder="Password" onChange={(e)=>setPassword(e.target.value)} /><br/>
                 <input type="text" id="dob" name="dob" placeholder="Date of birth" onChange={(e)=>setDob(e.target.value)} /><br/>
                 <input type="text" id="name" name="name" placeholder="Name" onChange={(e)=>setName(e.target.value)} /><br/>
                 <input type="text" id="phone" name="phone" placeholder="Phone number" onChange={(e)=>setPhone(e.target.value)} /><br/>                
