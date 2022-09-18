@@ -5,22 +5,6 @@ import "../routes/style.css";
 const Newitem=(props)=>{
 
 
-   /*  async function Save(){
-        let item={name,link}
-        
-        
-        let result=await fetch("http://ec2-18-217-234-99.us-east-2.compute.amazonaws.com:8080/v1/items",{
-            method:"POST",
-            headers:{'Authorization':'Bearer '+localStorage.getItem('user-info'),"Content-Type":"application/json"},
-            body:JSON.stringify(item)
-        })
-        console.log(result.status)
-        if(result.status===200){
-            console.log("merge");
-            
-        }
-    } */
-
 
     return(
         <> 
